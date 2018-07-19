@@ -34,12 +34,6 @@ class QlabelDemo(QDialog):
          
         mainLayout.addWidget(btnOk,2,1)
         mainLayout.addWidget(btnCancel,2,2) 
-        
-def link_hovered():
-    print("当鼠标滑过label-2标签时，触发事件。")
-        
-def link_clicked():
-    print("当鼠标点击label-4标签时，触发事件。" )
   
 if __name__ == "__main__":  
     app = QApplication(sys.argv)  
